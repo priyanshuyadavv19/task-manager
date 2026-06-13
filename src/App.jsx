@@ -31,11 +31,14 @@ function App() {
     localStorage.setItem("tasks",JSON.stringify(tasks))
   },[tasks])
   return (
-    <>
-      <TaskInput onAddTask={addTask}/>
-      <FilterBar currentFilter={filter} onFilterChange={setFilter}/>
-      <TaskList tasks={filteredTasks} onToggle={toggleTask} onDelete={deleteTask}/>
-    </>
+    <div className="min-h-screen bg-gray-900 px-4 py-10">
+      <div className="max-w-2xl mx-auto">
+        <h1 className="text-white text-3xl font-bold text-center mb-6">Task Manager</h1>
+        <TaskInput onAddTask={addTask}/>
+        <FilterBar currentFilter={filter} onFilterChange={setFilter}/>
+        <TaskList tasks={filteredTasks} onToggle={toggleTask} onDelete={deleteTask}/>
+      </div>
+    </div>
   )
 }
 export default App
