@@ -13,7 +13,7 @@ is never lost on reload.
 * Tasks persist across sessions
 
 ## Screenshot
-*(screenshot coming soon)*
+<img width="1364" height="695" alt="task-manager-1" src="https://github.com/user-attachments/assets/b71f16b3-266b-459e-816b-6e66cf5e654e" />
 
 ## Tech Stack Used 
 React, Vite, Web Storage API (localStorage), Tailwind CSS
@@ -28,7 +28,7 @@ npm run dev
 ```
 
 ## Live demo
-[Coming soon]
+[Task Manager](https://task-manager-nine-blond-10.vercel.app/)
 
 ---
 Made by [Priyanshu Kumar Yadav](https://github.com/priyanshuyadavv19)
